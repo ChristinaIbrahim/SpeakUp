@@ -25,13 +25,17 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              {
+               {
                 "glob": "**/*",
-                "input": "public"
-              }
-            ],
+                 "input": "public",
+                 "output": "/"
+              },
+               "src/favicon.ico",
+               "src/assets"
+             ],
             "styles": [
-              "src/styles.scss"
+              "src/tailwind.css",
+              "src/styles.css"
             ],
             "server": "src/main.server.ts",
             "outputMode": "server",
