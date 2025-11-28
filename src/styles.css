@@ -1,2 +1,22 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+
+/* CSS Variables */
+:root {
+  --color-primary: #2563EB;
+  --color-secondary: #4FB3FF;
+  --radius-medium: 8px;
+  --bg-white: #FFFFFF;
+  --color-annoucement-bg: #0B1E46;
+  --color-accent: #EBAD25;
+  --color-header-bg:  linear-gradient(red, #4FB3FF);
+  --spacing-large: 24px;
+  --padding-contain :  0 4.9rem;
+
+}
+.contain{
+  padding: var(--padding-contain);
+}
+
+

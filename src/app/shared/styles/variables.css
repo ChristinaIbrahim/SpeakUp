@@ -1,6 +1,13 @@
-:root{
-   --color-primary: #2563EB;
+/* CSS Variables */
+:root {
+  --color-primary: #2563EB;
   --color-secondary: #4FB3FF;
   --radius-medium: 8px;
+  --bg-white: #FFFFFF;
+  --color-bg: #0B1E46;
+  --color-accent: #EBAD25;
   --spacing-large: 24px;
 }
+
+/* تطبيق الألوان على الكلاس announcement */
+
