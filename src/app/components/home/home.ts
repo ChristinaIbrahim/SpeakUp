@@ -2,11 +2,12 @@ import { Component } from '@angular/core';
 import { Navbar } from "../navbar/navbar";
 import { Header } from "../header/header";
 import { Mainsection } from './mainsection/mainsection';
-import { Descreption } from './descreption/descreption';
+import { Courses } from './courses/courses';
+import { About } from './about/about';
 
 @Component({
   selector: 'app-home',
-  imports: [Navbar, Header,Mainsection,Descreption],
+  imports: [Navbar,Mainsection,Courses,About],
   templateUrl: './home.html',
   styleUrl: './home.scss',
 })
