@@ -4,13 +4,17 @@
 :root {
   --color-primary: #2563EB;
   --color-secondary: #4FB3FF;
-   --color-yellow:#EBAD25;
+  --font-family :'Poppins', sans-serif;
+  --color-yellow:#EBAD25;
   --main-padding:110px;
+  --main-padding-left:110px;
+  --main-padding-right:110px;
   --radius-medium: 8px;
+  --gradient-bg-footer: linear-gradient(to bottom, #2563EB, #123276);
   --bg-white: #FFFFFF;
   --color-annoucement-bg: #0B1E46;
   --color-accent: #EBAD25;
-  --color-header-bg:  linear-gradient(red, #4FB3FF);
+  --color-gray : #404040;
   --spacing-large: 24px;
   --padding-contain :  0 4.9rem;
 
