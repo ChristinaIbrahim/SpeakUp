@@ -17,7 +17,7 @@
   --color-gray : #404040;
   --spacing-large: 24px;
   --padding-contain :  0 4.9rem;
-
+  --second-bg:#E9EFFD;
 }
 .contain{
   padding: var(--padding-contain);
