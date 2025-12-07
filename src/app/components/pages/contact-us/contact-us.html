@@ -1,1 +1,61 @@
-<p>contact-us works!</p>
+<app-navbar></app-navbar>
+<section class="bg-(--color-primary) py-40 text-center">
+  <div class="text-white px-4">
+    <h1 class="[font-size:var(--font-h1)]">
+      <span class="font-bold">Get in</span>
+      <span>Touch</span>
+    </h1>
+    <p class="[font-size:var(--font-p)]">
+      Feel free to contact us any time. we will get back to you as <br />
+      soon as we can !
+    </p>
+  </div>
+</section>
+<section class="container mx-auto mt-4">
+  <div class="max-w-6xl mx-auto grid md:grid-cols-3 sm:grid-cols-2 gap-8 px-4">
+    <div class="rounded-xl border border-(--color-primary) p-8 text-center mb-2">
+      <img src="/assets/images/call.png" class="mx-auto" />
+      <h4 class="[font-size:var(--font-h6)] font-bold mb-2">Give us a call</h4>
+      <p>+12 4650 123</p>
+      <p>+14 0691 463</p>
+    </div>
+    <div class="rounded-xl border border-(--color-primary) p-8 text-center mb-2">
+      <img src="/assets/images/location_on.png" class="mx-auto" />
+      <h4 class="[font-size:var(--font-h6)] font-bold mb-2">Our main office</h4>
+      <p>
+        Agiou Markou 15,<br />
+        Athina 105 60, UK.
+      </p>
+    </div>
+    <div class="rounded-xl border border-(--color-primary) p-8 text-center mb-2">
+      <img src="/assets/images/email.png" class="mx-auto" />
+      <h4 class="[font-size:var(--font-h6)] font-bold mb-2">Send us a email</h4>
+      <p>mail@speakup.com</p>
+    </div>
+  </div>
+</section>
+<section class="container p-16 mx-auto mt-4 text-center border border-[#8C9FBD40] shadow-2xl">
+  <h3 class="[font-size:var(--font-h3)] text-(--color-primary) font-bold mb-6">
+    How May We Help You !
+  </h3>
+  <form class="grid gap-4">
+    <div class="grid md:grid-cols-2 gap-4">
+      <input type="text" placeholder="Name" class="border p-3 rounded-md w-full" />
+      <input type="text" placeholder="Email" class="border p-3 rounded-md w-full" />
+    </div>
+    <input type="text" placeholder="Subject" class="border p-3 rounded-md w-full" />
+    <textarea
+      placeholder="Write your problem ...."
+      class="border p-3 rounded-md w-full h-32"
+    ></textarea>
+    <button class="bg-(--color-primary) px-4 py-4 w-[392px] mx-auto text-white">
+      Send Massage
+    </button>
+  </form>
+</section>
+
+<section class="mt-4">
+  <img src="/assets/images/Basemap.png" class="w-full" />
+</section>
+
+<app-footer></app-footer>
