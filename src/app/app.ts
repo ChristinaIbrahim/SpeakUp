@@ -4,11 +4,11 @@ import { Navbar } from "./components/navbar/navbar";
 import { Header } from "./components/header/header";
 import { Home } from "./components/home/home";
 import { Mainsection } from './components/home/mainsection/mainsection';
-import { Descreption } from './components/home/descreption/descreption';
+import { AboutUs } from './components/pages/about-us/about-us';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Navbar, Header, Home  ,Mainsection,Descreption],
+  imports: [RouterOutlet, Navbar, Header, Home  ,Mainsection,AboutUs],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

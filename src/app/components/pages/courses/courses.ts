@@ -19,8 +19,7 @@ export class Courses {
     {image:'/assets/images/Courses/5.png',title: 'Learning historical words and sentences' },
     {image:'/assets/images/Courses/6.png',title: 'Learning historical words and sentences' },
     {image:'/assets/images/Courses/7.png',title: 'Learning historical words and sentences' },
-    {image:'/assets/images/Courses/1.png',title: 'Learning historical words and sentences' },
-    {image:'/assets/images/Courses/2.png',title: 'Learning historical words and sentences' },
+
 
   ]
 
