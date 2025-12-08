@@ -17,7 +17,12 @@
   --color-gray : #404040;
   --spacing-large: 24px;
   --padding-contain :  0 4.9rem;
+<<<<<<< HEAD
   --second-bg:#E9EFFD;
+=======
+  --title-font-size: 40px;
+
+>>>>>>> ff4bed6e30ed59cff6b0c22c033d21bf3f376bd1
 }
 .contain{
   padding: var(--padding-contain);
