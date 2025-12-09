@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { Navbar } from "../../navbar/navbar";
-import { Footer } from "../../home/footer/footer";
+import { Navbar } from '../home/navbar/navbar';
+import { Footer } from '../home/footer/footer';
 
 @Component({
   selector: 'app-contact-us',
