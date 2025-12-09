@@ -3,6 +3,15 @@
 
 :root {
   --font-family: "Roboto", sans-serif;
+  /* Font size variables */
+  --fs-body: 1rem;   /* 16px */
+  --fs-heading-xl: 2.75rem; /* 44px  */
+  --fs-heading-l: 2.5rem;  /*  40px */
+
+  --fs-lg: 1rem ;    /* 20px */
+  --fs-md: 1.125rem;   /* 18px */
+  --fs-small: 0.875rem;    /* 14px */
+
   --color-primary: #2563EB;
   --color-secondary: #4FB3FF;
   --font-family :'Poppins', sans-serif;
