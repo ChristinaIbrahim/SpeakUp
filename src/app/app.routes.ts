@@ -1,8 +1,8 @@
-import { AboutUs } from './shared/components/pages/about-us/about-us';
-import { ContactUS } from './shared/components/pages/contact-us/contact-us';
+import { Courses } from './features/courses/courses';
+import { Home } from './features/home/home';
+import { ContactUS } from './features/contact-us/contact-us';
+import { AboutUs } from './features/about-us/about-us';
 import { Routes } from '@angular/router';
-import { Home } from './shared/components/pages/home/home';
-import { Courses } from './shared/components/pages/courses/courses';
 export const routes: Routes = [
   {
     path:'',

@@ -1,8 +1,8 @@
+import { Footer } from './../../layout/footer/footer';
+import { Navbar } from './../../layout/navbar/navbar';
 import { Component } from '@angular/core';
-import { Navbar } from '../home/navbar/navbar';
 import { CommonModule } from '@angular/common';
 import { NgFor } from '@angular/common';
-import { Footer } from '../home/footer/footer';
 @Component({
   selector: 'app-courses',
   imports: [Navbar, NgFor, CommonModule, Footer],

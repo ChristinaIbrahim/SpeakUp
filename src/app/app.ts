@@ -1,7 +1,7 @@
-import { AboutUs } from './shared/components/pages/about-us/about-us';
-import { Home } from './shared/components/pages/home/home';
-import { Header } from './shared/components/pages/home/header/header';
-import { Navbar } from './shared/components/pages/home/navbar/navbar';
+import { Navbar } from './layout/navbar/navbar';
+import { Header } from './layout/header/header';
+import { Home } from './features/home/home';
+import { AboutUs } from './features/about-us/about-us';
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
