@@ -4,7 +4,7 @@ import { Navbar } from "./components/navbar/navbar";
 import { Header } from "./components/header/header";
 import { Home } from "./components/home/home";
 import { Mainsection } from './components/home/mainsection/mainsection';
-import { AboutUs } from './components/about-us/about-us';
+import { AboutUs } from './components/pages/about-us/about-us';
 
 @Component({
   selector: 'app-root',
