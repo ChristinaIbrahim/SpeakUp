@@ -1,40 +1,44 @@
 @import "tailwindcss";
 @plugin "daisyui";
+html {
+  font-size: clamp(8px, calc(0.5vw + 0.4px), 20px)!important;
+}
 
 :root {
   --font-family: "Roboto", sans-serif;
   --color-primary: #2563EB;
   --color-secondary: #4FB3FF;
-  --font-family :'Poppins', sans-serif;
-  --color-yellow:#EBAD25;
-  --main-padding:110px;
-  --main-padding-left:110px;
-  --main-padding-right:110px;
+  --font-family: 'Poppins', sans-serif;
+  --color-yellow: #EBAD25;
+  --main-padding: 110px ;
+  --main-padding-left: 110px;
+  --main-padding-right: 1.1rem;
   --radius-medium: 8px;
   --gradient-bg-footer: linear-gradient(to bottom, #2563EB, #123276);
   --bg-white: #FFFFFF;
   --color-annoucement-bg: #0B1E46;
   --color-accent: #EBAD25;
-  --color-gray : #404040;
+  --color-gray: #404040;
   --spacing-large: 24px;
-  --font-normal: 1rem;
-  --font-h1: 3.5rem; /*   56px   */
-  --font-h3: 2.25rem;
-  --font-h6: 1.125rem;  /*   18px  */
-  --font-p: 1.25rem; /* 20px   */
-  --padding-contain :  0 4.9rem;
-<<<<<<< HEAD
-  --second-bg:#E9EFFD;
-=======
-  --title-font-size: 40px;
+  /*variables*/
+  --p-font:2rem;
 
->>>>>>> ff4bed6e30ed59cff6b0c22c033d21bf3f376bd1
+
+  --font-normal: 1rem;
+  --font-h1: 3.5rem;
+  --font-h3: 2.25rem;
+  --font-h6: 1.125rem;
+  --font-p: 1.25rem;
+  --padding-contain: 0 4.9rem;
+
+  --second-bg: #E9EFFD;
+  --title-font-size: 40px;
 }
-.container{
-    --font-family: "Roboto", sans-serif;
+
+.container {
+  --font-family: "Roboto", sans-serif;
 }
-.contain{
+
+.contain {
   padding: var(--padding-contain);
 }
-
-
