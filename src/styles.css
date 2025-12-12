@@ -2,7 +2,7 @@
 @plugin "daisyui";
 
 html {
-  font-size: clamp(12px, 1vw + 2px, 20px);
+  font-size: clamp(10px, 1vw + 2px, 20px);
 }
 
 :root {
@@ -22,8 +22,10 @@ html {
   --color-gray: #404040;
   --spacing-large: 24px;
   /**/
-  --p-font: 2rem;
-  --h-font: 5.6rem;
+  --p-font: 1rem;
+  --h-font: 2.3rem;
+  --main-padding1:5rem;
+  --main-padding2:10rem;
   /**/
   --font-normal: 1rem;
   --font-h1: 3.5rem;
