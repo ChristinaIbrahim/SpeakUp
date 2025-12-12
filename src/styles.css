@@ -1,7 +1,8 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
 html {
-  font-size: clamp(8px, calc(0.5vw + 0.4px), 20px)!important;
+  font-size: clamp(12px, 1vw + 2px, 20px);
 }
 
 :root {
@@ -10,7 +11,7 @@ html {
   --color-secondary: #4FB3FF;
   --font-family: 'Poppins', sans-serif;
   --color-yellow: #EBAD25;
-  --main-padding: 110px ;
+  --main-padding: 110px;
   --main-padding-left: 110px;
   --main-padding-right: 1.1rem;
   --radius-medium: 8px;
@@ -20,10 +21,10 @@ html {
   --color-accent: #EBAD25;
   --color-gray: #404040;
   --spacing-large: 24px;
-  /*variables*/
-  --p-font:2rem;
-
-
+  /**/
+  --p-font: 2rem;
+  --h-font: 5.6rem;
+  /**/
   --font-normal: 1rem;
   --font-h1: 3.5rem;
   --font-h3: 2.25rem;
