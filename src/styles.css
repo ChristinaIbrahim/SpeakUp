@@ -1,26 +1,47 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+html {
+  font-size: clamp(10px, 1vw + 2px, 20px);
+}
+
 :root {
+  --font-family: "Roboto", sans-serif;
   --color-primary: #2563EB;
   --color-secondary: #4FB3FF;
-  --font-family :'Poppins', sans-serif;
-  --color-yellow:#EBAD25;
-  --main-padding:110px;
-  --main-padding-left:110px;
-  --main-padding-right:110px;
+  --font-family: 'Poppins', sans-serif;
+  --color-yellow: #EBAD25;
+  --main-padding: 110px;
+  --main-padding-left: 110px;
+  --main-padding-right: 1.1rem;
   --radius-medium: 8px;
   --gradient-bg-footer: linear-gradient(to bottom, #2563EB, #123276);
   --bg-white: #FFFFFF;
   --color-annoucement-bg: #0B1E46;
   --color-accent: #EBAD25;
-  --color-gray : #404040;
+  --color-gray: #404040;
   --spacing-large: 24px;
-  --padding-contain :  0 4.9rem;
+  /**/
+  --p-font: 1rem;
+  --h-font: 2.3rem;
+  --main-padding1:5rem;
+  --main-padding2:10rem;
+  /**/
+  --font-normal: 1rem;
+  --font-h1: 3.5rem;
+  --font-h3: 2.25rem;
+  --font-h6: 1.125rem;
+  --font-p: 1.25rem;
+  --padding-contain: 0 4.9rem;
 
+  --second-bg: #E9EFFD;
+  --title-font-size: 40px;
 }
-.contain{
+
+.container {
+  --font-family: "Roboto", sans-serif;
+}
+
+.contain {
   padding: var(--padding-contain);
 }
-
-

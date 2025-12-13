@@ -10,6 +10,11 @@ import { LoginComponent } from './components/login/login';
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet, Navbar, Header, Home  ,Mainsection,Descreption,LoginComponent],
+import { AboutUs } from './components/pages/about-us/about-us';
+
+@Component({
+  selector: 'app-root',
+  imports: [RouterOutlet, Navbar, Header, Home  ,Mainsection,AboutUs],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
