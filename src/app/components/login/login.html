@@ -1,0 +1,61 @@
+<app-navbar></app-navbar>
+<div class=" lg:px-(--main-padding) my-auto justify-center  flex flex-col lg:flex-row items-start  py-8 mx-auto">
+  <img src="assets/images/Rectangle.png" class="w-120" alt="">
+  <div class="w-120 bg-[#E9EFFD] p-20 pb-49">
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="flex flex-col gap-4">
+      <h1 class="text-[16px] lg:text-[40px] font-bold ">Log In</h1>
+      <h6 class="text-[18px]">New to Speak Up?<span class="text-(--color-primary)">Sign Up</span> </h6>
+      <div>
+        <label class="block font-semibold mb-1">
+          Email Or Username
+        </label>
+        <input type="email" formControlName="email"
+          class="border rounded-2xl px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white"
+          placeholder="Enter your Email or username">
+        <ng-container *ngIf="loginForm.get('email') as emailCtrl">
+          <ul *ngIf="emailCtrl.touched && emailCtrl.invalid" class="text-red-600 mt-1">
+            <li *ngIf="emailCtrl.errors?.['required']">Email is required</li>
+            <li *ngIf="emailCtrl.errors?.['email']">Enter a valid email</li>
+          </ul>
+        </ng-container>
+      </div>
+      <div>
+        <label class="block text-[16px] font-normal mb-1">
+          Password
+        </label>
+        <input type="password" formControlName="password"
+          class="border rounded-2xl px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white"
+          placeholder="Enter your Password ">
+        <ng-container *ngIf="loginForm.get('password') as passwordCtrl">
+          <ul *ngIf="passwordCtrl.touched && passwordCtrl.invalid" class="text-red-600 mt-1">
+            <li *ngIf="passwordCtrl.errors?.['required']">Password is required</li>
+            <li *ngIf="passwordCtrl.errors?.['minlength']">Minimum length is 7</li>
+          </ul>
+        </ng-container>
+      </div>
+      <div class="flex flex-row justify-between">
+        <label class="flex flex-row! items-center gap-2 cursor-pointer">
+          <input type="checkbox" formControlName="rememberMe"
+            class="rounded border-gray-300 focus:ring-blue-500 h-4 w-4">
+          <span class="text-[14px] font-normal">Remember Me</span>
+        </label>
+
+        <a href="#" class=" hover:underline text-[14px]">Forgot password?</a>
+      </div>
+      <button type="submit" class="bg-blue-500 text-white py-2 rounded hover:bg-blue-600">
+        Log In
+      </button>
+    </form>
+   <div class="flex items-center justify-center">Or continue with</div>
+    <div class="socila flex flex-row items-center justify-center my-2">
+    <img src="assets/images/Facebook svg.png"  alt="">
+    <img src="assets/images/Google svg.png" class="mx-4" alt="">
+    <img src="assets/images/Instagram svg.png" alt="">
+
+  </div>
+         <div class="flex items-center justify-center">Don’t have an Accoount? <span class="text-(--color-primary)">Sign Up</span> </div>
+
+  </div>
+
+</div>
+<app-footer></app-footer>
