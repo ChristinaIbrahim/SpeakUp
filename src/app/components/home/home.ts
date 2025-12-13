@@ -15,13 +15,11 @@ import { About } from './about/about';
   imports: [
     Navbar,
     Header,
-    Mainsection,
     Descreption,
     Testimonials,
     Pricing,
     Footer,
     Courses,
-    CoursesCard,
     About
   ],
   templateUrl: './home.html',

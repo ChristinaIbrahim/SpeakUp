@@ -1,9 +1,37 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+@import "tailwindcss";
+@plugin "daisyui";
+
 html {
-  font-size: clamp(10px, 1vw + 2px, 20px);
+  font-size: 10px;
 }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 7px;
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 1440px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 1920px) {
+  html {
+    font-size: 12px;
+  }
+}
+
 
 :root {
   --font-family: "Roboto", sans-serif;
