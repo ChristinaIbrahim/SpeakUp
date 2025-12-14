@@ -1,49 +1,80 @@
 @import "tailwindcss";
 @plugin "daisyui";
-/* html {
-  font-size: 62.5%;
-} */
+
+@layer base {
+   html {
+    font-size: 5px;
+  }
+  @media (min-width: 768px) {
+    html {
+      font-size: 8px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    html {
+      font-size: 9px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    html {
+      font-size: 10px;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    html {
+      font-size: 10px;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    html {
+      font-size: 12px;
+    }
+  }
+}
 
 :root {
   --font-family: "Roboto", sans-serif;
   --fs-heading-xl: clamp(1.75rem, calc(1rem + 3vw), 2.75rem);
-  --fs-p-l:clamp(0.8125rem, calc(0.8125rem + 0.63vw), 1.25rem);
+  --fs-p-l: clamp(0.8125rem, calc(0.8125rem + 0.63vw), 1.25rem);
 
 
 
-  --fs-heading-l: 2.5rem;  /*  40px */
-  --fs-lg: 1rem ;    /* 20px */
-  --fs-md: 1.125rem;   /* 18px */
-  --fs-small: 0.875rem;    /* 14px */
-
+  --fs-heading-l: 2.5rem;
+  --fs-lg: 1rem;
+  --fs-md: 1.125rem;
+  --fs-small: 0.875rem;
   --color-primary: #2563EB;
   --color-secondary: #4FB3FF;
-  --font-family :'Poppins', sans-serif;
-  --color-yellow:#EBAD25;
-  --main-padding:110px;
-  --main-padding-left:110px;
-  --main-padding-right:110px;
+  --font-family: 'Poppins', sans-serif;
+  --color-yellow: #EBAD25;
+  --main-padding: 110px;
+  --main-padding-left: 110px;
+  --main-padding-right: 110px;
   --radius-medium: 8px;
   --gradient-bg-footer: linear-gradient(to bottom, #2563EB, #123276);
   --bg-white: #FFFFFF;
   --color-annoucement-bg: #0B1E46;
   --color-accent: #EBAD25;
-  --color-gray : #404040;
+  --color-gray: #404040;
   --spacing-large: 24px;
   --font-normal: 1rem;
-  --font-h1: 3.5rem; /*   56px   */
+  --font-h1: 3.5rem;
   --font-h3: 2.25rem;
-  --font-h6: 1.125rem;  /*   18px  */
-  --font-p: 1.25rem; /* 20px   */
-  --padding-contain :  0 4.9rem;
-  --second-bg:#E9EFFD;
+  --font-h6: 1.125rem;
+  --font-p: 1.25rem;
+  --padding-contain: 0 4.9rem;
+  --second-bg: #E9EFFD;
   --title-font-size: 40px;
 }
-.container{
-    --font-family: "Roboto", sans-serif;
+
+.container {
+  --font-family: "Roboto", sans-serif;
 }
-.contain{
+
+.contain {
   padding: var(--padding-contain);
 }
-
-
