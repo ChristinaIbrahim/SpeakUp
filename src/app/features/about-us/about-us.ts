@@ -1,5 +1,5 @@
-import { Footer } from './../../home/footer/footer';
-import { Navbar } from './../../navbar/navbar';
+import { Navbar } from './../../layout/navbar/navbar';
+import { Footer } from './../../layout/footer/footer';
 import { Component } from '@angular/core';
 import { Bg } from './bg/bg';
 import { Text } from './text/text';

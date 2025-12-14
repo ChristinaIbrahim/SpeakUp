@@ -1,73 +1,93 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-@import "tailwindcss";
-@plugin "daisyui";
-
-html {
-  font-size: 10px;
-}
-
-@media (min-width: 768px) {
+@layer base {
   html {
-    font-size: 7px;
+    font-size: 5px;
+  }
+
+  @media (min-width: 768px) {
+    html {
+      font-size: 8px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    html {
+      font-size: 9px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    html {
+      font-size: 10px;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    html {
+      font-size: 10px;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    html {
+      font-size: 12px;
+    }
   }
 }
-
-@media (min-width: 1024px) {
-  html {
-    font-size: 8px;
-  }
-}
-
-@media (min-width: 1440px) {
-  html {
-    font-size: 10px;
-  }
-}
-
-@media (min-width: 1920px) {
-  html {
-    font-size: 12px;
-  }
-}
-
 
 :root {
-  --font-family: "Roboto", sans-serif;
-  --color-primary: #2563EB;
-  --color-secondary: #4FB3FF;
-  --font-family: 'Poppins', sans-serif;
-  --color-yellow: #EBAD25;
-  --main-padding: 110px;
-  --main-padding-left: 110px;
-  --main-padding-right: 1.1rem;
-  --radius-medium: 8px;
-  --gradient-bg-footer: linear-gradient(to bottom, #2563EB, #123276);
-  --bg-white: #FFFFFF;
-  --color-annoucement-bg: #0B1E46;
-  --color-accent: #EBAD25;
-  --color-gray: #404040;
-  --spacing-large: 24px;
-  /**/
-  --p-font: 1rem;
-  --h-font: 2.3rem;
-  --main-padding1:5rem;
-  --main-padding2:10rem;
-  /**/
+  /* Fonts */
+  --font-family-base: "Roboto", sans-serif;
+  --font-family-heading: "Poppins", sans-serif;
+
+  /* Font sizes (responsive with rem) */
+  --fs-heading-xl: clamp(1.75rem, calc(1rem + 3vw), 2.75rem);
+  --fs-p-l: clamp(0.8125rem, calc(0.8125rem + 0.63vw), 1.25rem);
+
+  --fs-heading-l: 2.5rem;
+  --fs-lg: 1rem;
+  --fs-md: 1.125rem;
+  --fs-small: 0.875rem;
+
   --font-normal: 1rem;
   --font-h1: 3.5rem;
   --font-h3: 2.25rem;
   --font-h6: 1.125rem;
   --font-p: 1.25rem;
-  --padding-contain: 0 4.9rem;
 
+  /* Colors */
+  --color-primary: #2563EB;
+  --color-secondary: #4FB3FF;
+  --color-yellow: #EBAD25;
+  --color-accent: #EBAD25;
+  --color-gray: #404040;
+  --bg-white: #FFFFFF;
+  --color-annoucement-bg: #0B1E46;
   --second-bg: #E9EFFD;
+
+  /* Layout & spacing */
+  --main-padding: 110px;
+  --main-padding-left: 110px;
+  --main-padding-right: 110px;
+
+  --main-padding1: 5rem;
+  --main-padding2: 10rem;
+
+  --padding-contain: 0 4.9rem;
+  --spacing-large: 24px;
+
+  /* UI */
+  --radius-medium: 8px;
+  --gradient-bg-footer: linear-gradient(to bottom, #2563EB, #123276);
+
+  /* Titles */
   --title-font-size: 40px;
 }
 
 .container {
-  --font-family: "Roboto", sans-serif;
+  --font-family-base: "Roboto", sans-serif;
 }
 
 .contain {
