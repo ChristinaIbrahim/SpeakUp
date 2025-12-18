@@ -12,7 +12,7 @@ export class RoleGuard implements CanActivate {
     const userRole = this.auth.getRole();
 
     if (!userRole) {
-      this.router.navigate(['/login']); // المستخدم مش مسجل دخول
+      this.router.navigate(['/login']);
       return false;
     }
 
@@ -20,7 +20,7 @@ export class RoleGuard implements CanActivate {
       return true;
     }
 
-    this.router.navigate(['/unauthorized']); // مش مسموح بالدخول
+    this.router.navigate(['/unauthorized']);
     return false;
   }
 }

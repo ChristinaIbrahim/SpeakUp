@@ -11,8 +11,8 @@ import { Router } from '@angular/router';
   selector: 'app-login',
   imports: [CommonModule, ReactiveFormsModule, Footer, Navbar, Header],
   templateUrl: './login.html',
-  styleUrls: ['./login.scss'], // صححنا هنا
-  standalone: true // لو المشروع standalone
+  styleUrls: ['./login.scss'],
+  standalone: true
 })
 export class Login {
   error = '';
@@ -27,16 +27,14 @@ export class Login {
     });
   }
 
-  // دالة submit تتحقق من صحة الفورم وتنفذ login
   submit() {
     if (this.loginForm.invalid) {
       this.loginForm.markAllAsTouched();
       return;
     }
-    this.login(); // تنفذ login بعد التحقق
+    this.login();
   }
 
-  // دالة login تستخدم القيم من الفورم
   login() {
     const { email, password } = this.loginForm.value;
     this.auth.Login(email, password).subscribe((users) => {
