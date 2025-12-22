@@ -45,12 +45,19 @@
 
     <div class="hidden lg:flex items-center gap-4">
       <img src="/assets/images/Vector.png" alt="Noti" />
-      <select class="border-none focus:outline-none bg-transparent">
-        <option>EN</option>
-        <option>Fr</option>
-        <option>Tur</option>
-        <option>Ger</option>
-      </select>
+   <select
+  #langSelect
+  class="border-none focus:outline-none bg-transparent"
+  (change)="changeLang(langSelect.value)"
+>
+  <option value="en">EN</option>
+  <option value="ar">AR</option>
+  <option value="fr">FR</option>
+  <option value="tr">TR</option>
+  <option value="de">DE</option>
+</select>
+
+
     </div>
 
     <button class="lg:hidden p-2" (click)="open = !open">

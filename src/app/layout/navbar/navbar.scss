@@ -6,3 +6,10 @@
 .navbar ul li a.active{
   color: var(--color-primary);
 }
+html[dir="rtl"] nav {
+  direction: rtl;
+}
+
+html[dir="rtl"] ul {
+  text-align: right;
+}
