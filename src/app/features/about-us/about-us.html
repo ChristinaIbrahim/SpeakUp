@@ -1,80 +1,143 @@
 <app-navbar></app-navbar>
-<div class="p-(--main-padding) text-white bg-(--color-primary)">
-  <h1 class="text-[16px] font-bold md:text-[56px]">About Speak Up</h1>
-  <p class="line-clamp-2 text-[16px] md:line-clamp-none md:text-[20px]">
-    SpeakUp is a ground-breaking app for learning English , Turkish , France words and improving vocabulary for all
-    speakers of English, from native speakers to beginner learners.It makes language learning more accessible to
-    everyone around the globe....
+
+<div class="p-20 text-white bg-(--color-primary)">
+  <h1 class="text-[3rem] font-bold">
+    {{ 'ABOUT.TITLE' | translate }}
+  </h1>
+
+  <p class="text-[1.5rem] max-w-5xl">
+    {{ 'ABOUT.INTRO' | translate }}
   </p>
 </div>
-<div class="p-5 md:px-[210px]">
-  <p class="text-[11px] md:text-[20px] py-2">Speak Up exists to empower people through languages. Whether you’re
-    learning for a new job, new
-    love or simply a new skill, your path to fluency starts here.</p>
-  <h2 class="text-[16px] font-bold md:text-[24px]">How Speak Up works:</h2>
+
+<div class="p-5 md:px-20">
+  <p class="text-[1.5rem] py-2">
+    {{ 'ABOUT.MISSION' | translate }}
+  </p>
+
+  <h2 class="text-[2.3rem] font-bold">
+    {{ 'ABOUT.HOW_IT_WORKS' | translate }}
+  </h2>
+
   <ul class="features my-2">
-    <li class="font-bold text-[16px] text-(--color-primary) md:text-[20px]">Self-paced study</li>
-    <li class="text-[11px] md:text-[20px]">Complete your personalised Study Plan, and get friendly reminders when it’s
-      time to learn using our expertly designed lessons. Benefit from the smart technology in our Review section, which
-      highlights what to revise and when. Self-paced studying works because you’re in control</li>
+    <li class="font-bold text-[1.6rem] text-(--color-primary)">
+      {{ 'ABOUT.SELF_PACED.TITLE' | translate }}
+    </li>
+    <li class="text-[1.5rem]">
+      {{ 'ABOUT.SELF_PACED.DESC' | translate }}
+    </li>
   </ul>
 </div>
+
+<!-- Languages -->
 <div class="flags flex flex-row px-5 md:px-10 lg:px-[317px] py-5 items-center justify-center">
-  <div class="p-6 border border-[#BDBDBD] rounded-2xl flex items-center justify-around  flex-col mr-10">
+  <div class="p-6 border border-[#BDBDBD] rounded-2xl flex flex-col items-center mr-10">
     <img src="assets/images/US.png" alt="">
-    <span class="py-2 text-[10px] md:text-[20px]">English</span>
+    <span class="py-2 text-[10px] md:text-[20px]">
+      {{ 'LANGUAGES.ENGLISH' | translate }}
+    </span>
   </div>
-  <div class="p-6 border border-[#BDBDBD] rounded-2xl flex items-center justify-center  flex-col mr-10">
+
+  <div class="p-6 border border-[#BDBDBD] rounded-2xl flex flex-col items-center mr-10">
     <img src="assets/images/DE.png" alt="">
-    <span class="py-2 text-[10px] md:text-[20px]">France</span>
+    <span class="py-2 text-[10px] md:text-[20px]">
+      {{ 'LANGUAGES.FRENCH' | translate }}
+    </span>
   </div>
-  <div class="p-6 border border-[#BDBDBD] rounded-2xl flex items-center justify-center  flex-col mr-10">
+
+  <div class="p-6 border border-[#BDBDBD] rounded-2xl flex flex-col items-center mr-10">
     <img src="assets/images/GP.png" alt="">
-    <span class=" py-2 text-[10px] md:text-[20px]">Germany</span>
+    <span class="py-2 text-[10px] md:text-[20px]">
+      {{ 'LANGUAGES.GERMAN' | translate }}
+    </span>
   </div>
-  <div class="p-6 border border-[#BDBDBD] rounded-2xl flex items-center justify-center  flex-col ">
+
+  <div class="p-6 border border-[#BDBDBD] rounded-2xl flex flex-col items-center">
     <img src="assets/images/TR.png" alt="">
-    <span class="py-2 text-[10px] md:text-[20px]">turkish</span>
+    <span class="py-2 text-[10px] md:text-[20px]">
+      {{ 'LANGUAGES.TURKISH' | translate }}
+    </span>
   </div>
 </div>
-<div class="together  lg:px-(--main-padding)  flex flex-col md:flex-row py-10 justify-between items-center text-center">
+
+<!-- Section 1 -->
+<div class="together lg:px-(--main-padding) flex flex-col md:flex-row py-10 justify-between items-center text-center">
   <div class="mx-3">
-    <h2 class="text-16px font-bold md:text-[40px]">The accurate English test with
-      fast results</h2>
-    <p class="py-5 text-[12px] md:text-[16px]">SPEAK UP is a quick and convenient online test to help higher education
-      institutions and employers check the English levels of individuals and groups of candidates. It combines the
-      latest AI technology with the reliability and quality you expect from Speak Up.</p>
+    <h2 class="text-[2.4rem] font-bold">
+      {{ 'SECTIONS.TEST_TITLE' | translate }}
+    </h2>
+    <p class="py-5 text-[1.6rem]">
+      {{ 'SECTIONS.TEST_DESC' | translate }}
+    </p>
   </div>
   <img src="assets/images/together.png" alt="">
 </div>
-<div class="  lg:px-(--main-padding)  flex flex-col md:flex-row py-10 justify-between items-center text-center">
+
+<!-- Section 2 -->
+<div class="lg:px-(--main-padding) flex flex-col md:flex-row py-10 justify-between items-center text-center">
   <img src="assets/images/study2.png" alt="">
 
   <div class="mx-3">
-    <h2 class="text-20px font-bold md:text-[40px]">our path to learning English, step by step</h2>
-    <p class="py-5 text-[12px] md:text-[16px]">effective and rewarding. Our unique approach encourages continuous
-      progression with a clear path to improve language skills. We have qualifications for schools, general and higher
-      education, and business.</p>
+    <h2 class="font-bold text-[2.4rem]">
+      {{ 'SECTIONS.LEARNING_PATH_TITLE' | translate }}
+    </h2>
+    <p class="py-5 text-[1.6rem]">
+      {{ 'SECTIONS.LEARNING_PATH_DESC' | translate }}
+    </p>
   </div>
 </div>
-<div class="  lg:px-(--main-padding)  flex flex-col md:flex-row py-10 justify-between items-center text-center">
+
+<!-- Section 3 -->
+<div class="lg:px-(--main-padding) flex flex-col md:flex-row py-10 justify-between items-center text-center">
   <div class="mx-3">
-    <h2 class="text-16px font-bold md:text-[40px]">Together we inspire learners to go further</h2>
-    <p class="py-5 text-[12px] md:text-[16px]">Our range of free teaching resources, lesson plans and activities is
-      designed to help you prepare your students for our exams and tests. We also have a range of teaching
-      qualifications, courses and support to help you develop as a teacher.</p>
+    <h2 class="text-[2.4rem] font-bold">
+      {{ 'SECTIONS.INSPIRE_TITLE' | translate }}
+    </h2>
+    <p class="py-5 text-[1.6rem]">
+      {{ 'SECTIONS.INSPIRE_DESC' | translate }}
+    </p>
   </div>
   <img src="assets/images/together.png" alt="">
 </div>
-<div class="  lg:px-(--main-padding)  flex flex-col md:flex-row py-10 justify-between items-start ">
+
+<!-- Section 4 -->
+<div class="lg:px-(--main-padding) flex flex-col md:flex-row py-10 justify-between items-start">
   <div class="mx-3">
-    <h2 class="text-16px font-bold md:text-[40px]">Motivate others: </h2>
-    <p class="py-5 text-[12px] md:text-[16px]">Our range of free teaching resources, lesson plans and activities is
-      designed to help you prepare your students for our exams and tests. We also have a range of teaching
-      qualifications, courses and support to help you develop as a teacher.</p>
+    <h2 class="text-[2.4rem] font-bold">
+      {{ 'SECTIONS.MOTIVATE_TITLE' | translate }}
+    </h2>
+    <p class="py-5 text-[2.4rem]">
+      {{ 'SECTIONS.MOTIVATE_DESC' | translate }}
+    </p>
   </div>
 </div>
+
 <app-bg></app-bg>
+
+<!-- CTA -->
+<section class="w-full py-10 bg-[#CDE0FF]">
+  <div class="mx-auto px-4">
+    <div class="bg-[#2563EB] rounded-xl p-6 md:p-5 flex flex-col md:flex-row items-center gap-6">
+
+      <div class="flex items-center gap-4 md:gap-6">
+        <img src="assets/images/image139.png" class="w-20 h-20 md:w-28 md:h-28 rounded-full border-4 border-white">
+        <img src="assets/images/image144.png" class="w-20 h-20 md:w-28 md:h-28 rounded-full border-4 border-white">
+        <img src="assets/images/image145.png" class="w-20 h-20 md:w-28 md:h-28 rounded-full border-4 border-white">
+      </div>
+
+      <div class="text-center md:text-left text-white md:ml-6">
+        <h2 class="font-bold text-[18px] md:text-[28px]">
+          {{ 'CTA.TITLE' | translate }}
+        </h2>
+        <p class="text-[13px] md:text-[18px] mt-2">
+          {{ 'CTA.DESC' | translate }}
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 <app-text></app-text>
 <app-team></app-team>
 <app-footer></app-footer>

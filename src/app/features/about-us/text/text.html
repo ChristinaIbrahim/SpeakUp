@@ -1,22 +1,38 @@
-<div class="together  lg:px-(--main-padding)  flex flex-col  py-10 justify-between items-start ">
-  <div class="mx-3">
-    <h2 class="text-16px font-bold md:text-[40px]">Our products, platforms and websites: </h2>
-    <p class="py-5 text-[12px] md:text-[16px]">platform and website may vary, but our teams are working to enhance
-      accessibility throughout. For more detailed information about the accessibility of specific products, please refer
-      to the documentation linked from our Accessibility Directory below.</p>
-  </div>
-   <div class="mx-3">
-    <h2 class="text-16px font-bold md:text-[40px]">Our products, platforms and websites: </h2>
-    <ul>
-      <li class="py-5 text-[12px] md:text-[16px]">Listen to all of the website using a screen reader (e.g. the most recent versions of JAWS, NVDA and VoiceOver), including image descriptions for images that convey meaning, form elements and links with a descriptive label</li>
-      <li class="py-5 text-[12px] md:text-[16px]">Understand the meaning of images and icons described by meaningful alternative text which explains its purpose within the context of the content. Some content may not have text alternatives available for figures and other graphics. If you encounter an image that does not have a text alternative, and you need one, you can request alternative text for specific images </li>
-      <li class="py-5 text-[12px] md:text-[16px]">Understand the function of all form elements. All form fields have descriptive labels which explain their meaning and any that are mandatory to complete the form </li>
-  </ul>
+<div class="together lg:px-(--main-padding) flex flex-col py-10 justify-between items-start">
 
-  </div>
   <div class="mx-3">
-    <h2 class="text-16px font-bold md:text-[40px]">Available formats:</h2>
-    <p class="py-5 text-[12px] md:text-[16px]">For optimal reading experience we recommend accessing content in HTML or EPUB format where available. These formats help to ensure text reflows correctly, images include alternative descriptions and that tables are appropriately .
-Where a work is unavailable in a suitable format (for example as an EPUB or fully typeset PDF), we recommend that disability officers first try obtaining the title through our partner.</p>
+    <h2 class="font-bold text-[3rem]">
+      {{ 'ACCESSIBILITY.TITLE' | translate }}
+    </h2>
+    <p class="py-5 text-[1.6rem]">
+      {{ 'ACCESSIBILITY.INTRO' | translate }}
+    </p>
   </div>
+
+  <div class="mx-3">
+    <h2 class="text-[3rem] font-bold">
+      {{ 'ACCESSIBILITY.FEATURES_TITLE' | translate }}
+    </h2>
+    <ul>
+      <li class="py-5 text-[1.6rem]">
+        {{ 'ACCESSIBILITY.FEATURE_1' | translate }}
+      </li>
+      <li class="py-5 text-[1.6rem]">
+        {{ 'ACCESSIBILITY.FEATURE_2' | translate }}
+      </li>
+      <li class="py-5 text-[1.6rem]">
+        {{ 'ACCESSIBILITY.FEATURE_3' | translate }}
+      </li>
+    </ul>
+  </div>
+
+  <div class="mx-3">
+    <h2 class="text-[3rem] font-bold">
+      {{ 'ACCESSIBILITY.FORMATS_TITLE' | translate }}
+    </h2>
+    <p class="py-5 text-[1.6rem]">
+      {{ 'ACCESSIBILITY.FORMATS_DESC' | translate }}
+    </p>
+  </div>
+
 </div>

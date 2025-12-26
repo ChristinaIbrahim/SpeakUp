@@ -1,0 +1,51 @@
+{
+  "ABOUT": {
+    "TITLE": "About Speak Up",
+    "INTRO": "SpeakUp is a ground-breaking app for learning English, Turkish and French words and improving vocabulary for learners worldwide.",
+    "MISSION": "Speak Up exists to empower people through languages. Whether you’re learning for a new job, a new love or a new skill, your path to fluency starts here.",
+    "HOW_IT_WORKS": "How Speak Up works:",
+    "SELF_PACED": {
+      "TITLE": "Self-paced study",
+      "DESC": "Complete your personalised Study Plan and get reminders to learn through expertly designed lessons. Smart review technology highlights what to revise and when."
+    }
+  },
+  "LANGUAGES": {
+    "ENGLISH": "English",
+    "FRENCH": "French",
+    "GERMAN": "German",
+    "TURKISH": "Turkish"
+  },
+  "SECTIONS": {
+    "TEST_TITLE": "The accurate English test with fast results",
+    "TEST_DESC": "Speak Up is a quick and convenient online test that combines AI technology with reliability and quality.",
+    "LEARNING_PATH_TITLE": "Our path to learning English, step by step",
+    "LEARNING_PATH_DESC": "Effective and rewarding learning with a clear progression path.",
+    "INSPIRE_TITLE": "Together we inspire learners to go further",
+    "INSPIRE_DESC": "Free teaching resources, lesson plans and activities to help learners succeed.",
+    "MOTIVATE_TITLE": "Motivate others",
+    "MOTIVATE_DESC": "Support, qualifications and resources to help you grow as a teacher."
+  },
+  "CTA": {
+    "TITLE": "So do you want to improve your English?",
+    "DESC": "Practice materials and learning resources to help you improve your English."
+  },
+  "ACCESSIBILITY": {
+  "TITLE": "Our products, platforms and websites:",
+  "INTRO": "Platforms and websites may vary, but our teams are working to enhance accessibility throughout. For more detailed information about the accessibility of specific products, please refer to the documentation linked from our Accessibility Directory below.",
+
+  "FEATURES_TITLE": "Our products, platforms and websites:",
+  "FEATURE_1": "Listen to all of the website using a screen reader (e.g. the most recent versions of JAWS, NVDA and VoiceOver), including image descriptions, form elements and descriptive links.",
+  "FEATURE_2": "Understand the meaning of images and icons through meaningful alternative text. Some content may not have text alternatives available. You can request alternative text for specific images if needed.",
+  "FEATURE_3": "Understand the function of all form elements. All form fields include descriptive labels explaining their purpose and required inputs.",
+
+  "FORMATS_TITLE": "Available formats:",
+  "FORMATS_DESC": "For the best reading experience, we recommend HTML or EPUB formats where available. These formats ensure proper text flow, alternative image descriptions and accessible tables. If unavailable, disability officers may obtain content through our partners."
+},
+"TEAM": {
+  "TITLE": "Meet Our Team",
+  "DESCRIPTION": "Our expert team is made up of creatives with technical knowhow, strategists who think outside the box, and developers who push innovation.",
+  "POSITION": "President & CEO"
+}
+
+
+}

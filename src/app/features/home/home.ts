@@ -19,7 +19,6 @@ import { About } from './about/about';
     Pricing,
     Footer,
     Courses,
-    CoursesCard,
     About
   ],
   templateUrl: './home.html',
