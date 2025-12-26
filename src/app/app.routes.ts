@@ -3,13 +3,13 @@ import { Home } from './features/home/home';
 import { ContactUS } from './features/contact-us/contact-us';
 import { AboutUs } from './features/about-us/about-us';
 import { Routes } from '@angular/router';
-import { Login } from './auth/login/login';
+import { Login } from './features/auth/login/login';
 import { Admin } from './features/admin/admin';
 import { Component } from '@angular/core';
 import { Student } from './features/student/student';
 import { Teacher } from './features/teacher/teacher';
-import { RoleGuard } from './auth/guards/role-guard';
-import { AuthGuard } from './auth/guards/auth/auth-guard';
+import { RoleGuard } from './core/guards/role/role-guard';
+import { AuthGuard } from './core/guards/auth/auth-guard';
 export const routes: Routes = [
   {
     path: '',

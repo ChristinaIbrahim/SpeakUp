@@ -1,10 +1,10 @@
-import { Footer } from './../../layout/footer/footer';
-import { Navbar } from './../../layout/navbar/navbar';
+import { Footer } from '../../../layout/footer/footer';
+import { Navbar } from '../../../layout/navbar/navbar';
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { CommonModule } from '@angular/common';
-import { Header } from '../../layout/header/header';
-import { Auth } from '../../services/auth';
+import { Header } from '../../../layout/header/header';
+import { Auth } from '../../../core/services/auth';
 import { Router } from '@angular/router';
 
 @Component({
