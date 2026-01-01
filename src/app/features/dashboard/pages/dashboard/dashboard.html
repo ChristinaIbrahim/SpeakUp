@@ -1,0 +1,11 @@
+<app-navbar></app-navbar>
+<div class="bg-[#BDBDBD] flex min-h-screen">
+ <app-sidebar></app-sidebar>
+
+<main class="flex p-6">
+   <app-student *appHasRole="'student'"></app-student>
+  <app-teacher *appHasRole="'teacher'"></app-teacher>
+  <app-admin   *appHasRole="'admin'"></app-admin>
+</main>
+</div>
+<app-footer></app-footer>
