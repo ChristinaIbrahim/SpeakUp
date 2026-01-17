@@ -1,0 +1,78 @@
+<aside
+  class="bg-white w-[25rem] min-h-screen flex flex-col
+         px-[4rem] py-[4rem] gap-[2.5rem]">
+
+  <div class="flex items-center gap-[1rem]">
+    <img
+      src="/assets/images/Frame-profile.png"
+      class="w-[4rem] h-[4rem] rounded-full object-cover"
+    />
+
+    <div>
+      <h3 class="text-[1.125rem] font-semibold leading-tight">
+        Maya Atay
+      </h3>
+
+      <div class="flex items-center gap-[0.5rem] mt-[0.5rem]">
+        <img src="/assets/images/location2.png" class="w-[1rem] h-[1rem]" />
+        <p class="text-[0.875rem] text-gray-500">
+          United Arab Emirates
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <p class="text-[1.125rem] font-medium text-gray-400 mb-[1.5rem]">
+      Menu
+    </p>
+
+    <ul class="flex flex-col gap-[1.25rem]">
+
+      <li>
+        <a
+          routerLink="/MyProfile"
+          routerLinkActive="bg-blue-50 text-blue-600"
+          class="flex items-center `gap-[0.75rem]`
+                 `px-[1rem] `py-[0.75rem] rounded-[0.75rem]`
+                 text-[1rem] font-medium
+                 hover:bg-blue-50 transition"
+        >
+          <img src="/assets/images/face.png" class="w-[1.25rem] h-[1.25rem]" />
+          My Profile
+        </a>
+      </li>
+
+      <li>
+        <a
+          routerLink="courses"
+          routerLinkActive="bg-blue-50 text-blue-600"
+          class="flex items-center gap-[0.75rem]
+                 px-[1rem] py-[0.75rem] rounded-[0.75rem]
+                 text-[1rem] font-medium
+                 hover:bg-blue-50 transition"
+        >
+          <img src="/assets/images/library_books.png" class="w-[1.25rem] h-[1.25rem]" />
+          My Courses
+        </a>
+      </li>
+
+      <!-- Settings -->
+      <li>
+        <a
+          routerLink="settings"
+          routerLinkActive="bg-blue-50 text-blue-600"
+          class="flex items-center gap-[0.75rem]
+                 px-[1rem] py-[0.75rem] rounded-[0.75rem]
+                 text-[1rem] font-medium
+                 hover:bg-blue-50 transition"
+        >
+          <img src="/assets/images/settings.png" class="w-[1.25rem] h-[1.25rem]" />
+          Settings
+        </a>
+      </li>
+
+    </ul>
+  </div>
+
+</aside>
